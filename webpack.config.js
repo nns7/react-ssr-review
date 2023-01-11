@@ -40,7 +40,7 @@ module.exports = {
   },
   plugins: [new NodemonPlugin()],
   resolve: {
-    extentions: [".ts", ".tsx", ".js", ".jsx"],
+    extensions: [".ts", ".tsx", ".js", ".jsx"],
     plugins: [new TsconfigPathsPlugin()],
   },
   externals: [nodeExternals()],
