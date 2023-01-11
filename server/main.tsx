@@ -16,7 +16,7 @@ server.get("/", (_req, res) => {
   );
   res.status(200).send(page);
 });
-server.get("./about", (_req, res) => {
+server.get("/about", (_req, res) => {
   const page = render(
     {
       title: "About | React ssr sample",
